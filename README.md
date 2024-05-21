@@ -2,8 +2,8 @@
 
 ## 📰 스터디 주제
 
-- [Java](Java/README.md)
-- [Spring](Spring/README.md)
+- [Java](Java/README.md) ✔️
+- [Spring](Spring/README.md) ✔️
 - [JPA](JPA/README.md)
 - [Web](Web/README.md)
 - [Operating System](Operating%20System/README.md)
