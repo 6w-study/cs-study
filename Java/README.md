@@ -1,18 +1,18 @@
 # Java
 ## 목차
-- [JVM](##JVM)
-- [JAVA](##JAVA)
-- [접근제어자](##접근제어자)
-- [Java 버전 별 특징](##JAVA-버전-별-특징)
-- [OOP](##OOP)
-- [추상 클래스와 인터페이스](##추상-클래스와-인터페이스)
-- [GC(Garbage Collector)](##GC(Garbage-Collector))
-- [Thread, 동기화](##Thread,-동기화)
-- [Error vs Exception](##Error-vs-Exception)
-- [Generic](##Generic)
-- [불변객체](##불변객체)
-- [Composition (컴포지션)](##Composition-(컴포지션))
-- [Stream](##Stream)
+- [JVM](#jvm)
+- [JAVA](#java-1)
+- [접근제어자](#접근제어자)
+- [Java 버전 별 특징](#java-버전-별-특징)
+- [OOP](#oop)
+- [추상 클래스와 인터페이스](#추상-클래스와-인터페이스)
+- [GC(Garbage Collector)](#gcgarbage-collector)
+- [Thread, 동기화](#thread-동기화)
+- [Error vs Exception](#error-vs-exception)
+- [Generic](#generic)
+- [불변객체](#불변객체)
+- [Composition (컴포지션)](#composition-컴포지션)
+- [Stream](#stream)
 
 
 ## JVM
