@@ -1,16 +1,16 @@
 # Spring
 
 ## 목차
-- [스프링, 스프링부트](#jvm)
-- [IoC와 Spring Bean](#java-1)
-- [DI](#접근제어자)
-- [AOP](#java-버전-별-특징)
-- [Filter, Interceptor](#oop)
-- [Lombok](#추상-클래스와-인터페이스)
-- [@Transactional](#gcgarbage-collector)
-- [Spring MVC](#thread-동기화)
-- [Spring Security](#error-vs-exception)
-- [DispatcherServlet](#generic)
+- [스프링, 스프링부트](#스프링-스프링부트)
+- [IoC와 Spring Bean](#ioc와-spring-bean)
+- [DI](#di)
+- [AOP](#aop)
+- [Filter, Interceptor](#filter-interceptor)
+- [Lombok](#lombok)
+- [@Transactional](#transactional)
+- [Spring MVC](#spring-mvc)
+- [Spring Security](#spring-security)
+- [DispatcherServlet](#dispatcherservlet)
 
 ## 스프링, 스프링부트
 
@@ -185,10 +185,6 @@
 
 ## Filter, Interceptor
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4f15baa-7517-4a1f-9ede-608a4bd3a955/458c03e5-0f33-478e-ac6c-6bacce676b34/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4f15baa-7517-4a1f-9ede-608a4bd3a955/89e12b5b-c1ba-409c-8212-3d9a4b491e9c/Untitled.png)
-
 - **필터에 대해 설명해주세요.**
     
     필터는 스프링 컨테이너가 아닌 톰캣과 같은 웹 컨테이너에 의해 관리되고, 스프링 범위 밖에서 처리됩니다. **Dispatcher Servlet에 요청이 전달되기 전/후**에 url 패턴에 맞는 모든 요청에 대해 부가 작업을 처리할 수 있는 기능을 제공합니다.
@@ -266,8 +262,6 @@
 
 ## Spring MVC
 
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4f15baa-7517-4a1f-9ede-608a4bd3a955/ea162400-555d-45e0-8acc-502c6cc37eba/Untitled.png)
-
 - **Spring MVC에 대해 설명해주세요.**
     
     MVC는 Model, View, Controller의 약자로서, 각 레이어간 기능을 구분하여 개발하는 디자인 패턴입니다.
@@ -302,10 +296,6 @@
     - MVC 2: 모델, 뷰, 컨트롤러가 명확하게 분리되어 있습니다. 각각 독립적으로 역할을 수행하여 유지보수와 확장성이 더 좋습니다.
 
 ## Spring Security
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4f15baa-7517-4a1f-9ede-608a4bd3a955/2a4fb9eb-490e-4947-8f91-ed5252c33dfa/Untitled.png)
-
-![Untitled](https://prod-files-secure.s3.us-west-2.amazonaws.com/f4f15baa-7517-4a1f-9ede-608a4bd3a955/87d367ed-62fa-4a16-9192-60802aa12890/Untitled.png)
 
 - **Spring security가 무엇인가요?**
     
